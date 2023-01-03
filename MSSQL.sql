@@ -1249,9 +1249,7 @@ Values('O2', '123', 'Ertuðrul', 'DUMAN', 'b1', 'E', 1);
 Select * from "Bolumler ";
 
 --Insert Into "Bolumler " ("Adi" , "Kodu", "Id") Select "Adi", "Kodu", "Id" from bolumleryedek
-				  
---Insert Into "Bolumler " ("Kodu", "Adi") VALUES ('B8', 'Bölüm8')
-				  
+
 Insert Into "Bolumler " ("Adi" , "Kodu") Select "Adi", "Kodu" from bolumleryedek
 
 
