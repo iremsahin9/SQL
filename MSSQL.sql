@@ -1244,7 +1244,7 @@ Values('O2', '123', 'Ertuðrul', 'DUMAN', 'b1', 'E', 1);
 
 --Delete from "Bolumler ";
 
---Yedekten verileri geri alacaðýz. Otomatik artan var mý yok mu diye kontrol edeceðiz önce. Varsa iptal edeceðiz.
+---Yedekten verileri geri alacaðýz. Otomatik artan var mý yok mu diye kontrol edeceðiz önce. Varsa iptal edeceðiz.
 
 Select * from "Bolumler ";
 
