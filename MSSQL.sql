@@ -1,5 +1,4 @@
------------------------------------------------------------MSSQL STUDY NOTES---------------------------------------------------------------
-
+-------------------------------------------------------------SQL Örnekler----------------------------------------------------------------------------
 ------------------------fakülteler tablosunu varsa silen ve oluþturan sql kodunu yazýnýz
 drop table if exists Fakulteler
 go
@@ -1244,12 +1243,14 @@ Values('O2', '123', 'Ertuðrul', 'DUMAN', 'b1', 'E', 1);
 
 --Delete from "Bolumler ";
 
----Yedekten verileri geri alacaðýz. Otomatik artan var mý yok mu diye kontrol edeceðiz önce. Varsa iptal edeceðiz.
+--Yedekten verileri geri alacaðýz. Otomatik artan var mý yok mu diye kontrol edeceðiz önce. Varsa iptal edeceðiz.
 
 Select * from "Bolumler ";
 
 --Insert Into "Bolumler " ("Adi" , "Kodu", "Id") Select "Adi", "Kodu", "Id" from bolumleryedek
-
+				  
+--Insert Into "Bolumler " ("Kodu", "Adi") VALUES ('B8', 'Bölüm8')
+				  
 Insert Into "Bolumler " ("Adi" , "Kodu") Select "Adi", "Kodu" from bolumleryedek
 
 
